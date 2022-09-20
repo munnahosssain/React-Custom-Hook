@@ -1,6 +1,5 @@
 import './App.css';
 import Mobile from './Pages/Mobile/Mobile';
-
 import useHooks from './Pages/Hooks/useHooks';
 import Tab from './Pages/Tablet/Tab';
 
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
         {
           displaySize
             ? <Mobile />
